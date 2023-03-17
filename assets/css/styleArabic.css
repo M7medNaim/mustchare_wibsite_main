@@ -1,0 +1,270 @@
+/*****************************************************************
+    Template Name    : Techvio - IT Solutions & Business Services Website Template
+    Author           : Cute Themes
+    Version          : 1.0
+    Created          : 2021
+    File Description : Main css file of the template
+*****************************************************************/
+
+/*****************************************************************
+
+** - 01 - Default CSS
+** - 02 - Preloader Area CSS
+** - 03 - Navbar Area CSS
+** - 04 - Home + Slider Area CSS
+** - 05 - Services Section CSS
+** - 06 - About Section CSS
+** - 07 - Overview Section CSS
+** - 08 - Counter Section CSS
+** - 09 - Project Section CSS
+** - 10 - Testimonial Section CSS
+** - 11 - Team Section CSS
+** - 12 - Hire Section CSS
+** - 13 - Partner Section CSS
+** - 14 - Blog Section CSS
+** - 15 - Subscribe Section CSS
+** - 16 - Other Page Banner Title Area CSS
+** - 17 - Projects Details Page Section CSS
+** - 18 - Pricing Page Area CSS
+** - 19 - 404 Error Page Area CSS
+** - 20 - Faq Page Area Styles CSS
+** - 21 - Coming Soon Page Area CSS
+** - 22 - Contact Page Section CSS
+** - 23 - Single Services Page Details CSS
+** - 24 - Blog Details Page Area CSS
+** - 25 - Blog Page Sidebar Widget Area CSS
+** - 26 - Blog Page Number Pagination Area CSS
+** - 27 - Terms & Conditions - Privacy Policy Page Section CSS
+** - 28 - All Page Footer Section CSS
+** - 29 - Page Copyright Section CSS
+
+*****************************************************************/
+
+/**************************************
+ ** - 01 - Default CSS
+ **************************************/
+html{
+	direction: rtl;
+}
+/****** style arabic ********/
+.main-banner-content,.single-services-item,.about-content-text,.overview-content{
+text-align: right;
+}
+.about-area .skills .skill-item .skill-progress .progres{
+	right: 0;
+}
+.skill-item h6{
+	display: flex;
+	justify-content: space-between;
+}
+.about-image .years-design{
+	left: unset;
+	right: -75px;
+}
+@media (min-width: 992px){
+	.offset-lg-1{
+		margin-left: unset;
+		margin-right: 8.333333%;
+	}
+	.offset-lg-2{
+		margin-left: unset;
+		margin-right: 16.666667%;
+	}
+}
+.overview-content .features-list li span{
+	border-left: 2px solid transparent;
+	border-right: 2px solid #5b5e7c;
+}
+.owl-carousel.owl-loaded{
+	direction: ltr;
+}
+.single-blog-item,.subscribe-content{
+	text-align: right;
+}
+.blog-item .single-blog-item .blog-list li i{
+	margin-right: unset;
+	margin-left: 3px;
+}
+.blog-item .single-blog-item .blog-list li{
+	margin-right:unset;
+	margin-left:15px;
+}
+.partner-list .partner-item:nth-child(6){
+	margin-left: unset;
+	margin-right: 10%;
+}
+.newsletter-form button{
+	right: unset;
+	left: 0;
+}
+.newsletter-form .input-newsletter{
+	padding-left: unset;
+	padding-right: 25px;
+}
+.single-footer-widget{
+	text-align: right;
+}
+.copyright-area ul li::before{
+	right: unset;
+	left: -13px;
+}
+.copyright-area ul li:last-child{
+	margin-right: 10px;
+	margin-left:0;
+}
+.copyright-area ul li:first-child{
+	margin-right: 0;
+	margin-left:10px;
+}
+.copyright-area p{
+	text-align: right;
+}
+.copyright-area ul{
+	text-align: left;
+}
+.single-footer-widget .footer-social li:last-child{
+	margin-left: 0;
+	margin-right: 10px;
+}
+.single-footer-widget .footer-info-contact i{
+	left: unset;
+	right: 0;
+}
+.single-footer-widget .footer-info-contact{
+	padding-right: 35px;
+}
+.go-top{
+	right: unset;
+	left:15px;
+}
+.default-btn-one{
+	margin-right: unset;
+	margin-left: 20px;
+}
+.contact-form form .form-control{
+	border-left: 3px solid transparent;
+	border-right: 3px solid #5b5e7c;
+}
+.contact-form div:last-child,.services-step-title,.services-step-wrapper {
+text-align: right;
+}
+.page-numbers .fa-angle-double-left,.page-numbers .fa-angle-double-right{
+    transform: rotate(180deg);
+}
+.article-content,.article-tags{
+	text-align: right;
+}
+.blog-details-desc .article-footer .article-share .social{
+	text-align: left;
+}
+.blog-details-desc .article-content .entry-meta ul li::before{
+	right: unset;
+	left: -15px;
+}
+.blog-details-desc .article-content .entry-meta ul li{
+	margin-left:21px;
+}
+.post-navigation .navigation-links .nav-previous{
+	text-align: right;
+}
+.post-navigation .navigation-links .nav-next{
+	text-align: left;
+}
+.fa-arrow-right:before{
+	content: "\f060";
+}
+.fa-arrow-left:before {
+    content: "\f061";
+}
+.comments-area{
+	text-align: right;
+}
+.comments-area .comment-body{
+	padding-left:0;
+	padding-right: 65px;
+}
+.comments-area .comment-author .avatar{
+	left: 0;
+	right: -65px;
+}
+.widget-area .widget_search form button{
+	right: unset;
+	left: 0;
+}
+.widget-area .widget .widget-title{
+	text-align: right;
+}
+.widget-area .widget .widget-title::before{
+	left: unset;
+	right: 0;
+}
+.widget-area .widget_techvio_posts_thumb .item{
+	text-align: right;
+}
+.widget-area .widget_techvio_posts_thumb .item .thumb{
+	float: right;
+	margin-right: unset;
+	margin-left: 15px;
+}
+.widget-area .widget_categories ul li::before,.widget-area .widget_recent_comments ul li::before,.widget-area .widget_archive ul li::before{
+	left: unset;
+	right: 0;
+}
+.widget-area .widget_categories ul li,.widget-area .widget_recent_comments ul li,.widget-area .widget_archive ul li{
+	text-align: right;
+	padding-left: 0;
+	padding-right:15px;
+}
+.tagcloud{
+	text-align: right;
+}
+.widget-area .tagcloud a{
+	margin-right: unset;
+	margin-left: 4px;
+}
+.page-title-content ul li::before{
+	right: unset;
+	left: -15px;
+}
+.techvio-nav .navbar .navbar-nav .nav-item:last-child a{
+	margin-right: 15px;
+}
+.techvio-nav .navbar .navbar-nav .nav-item:first-child a{
+	margin-left: 15px;
+}
+.techvio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a{
+	text-align: right;
+}
+.name::before{
+	margin-left: 5px;
+}
+.time::before,.days::before,.money::before{
+	margin-left: 5px;
+	float: right;
+}
+.hRating,.ratingConsultants{
+	text-align: right;
+}
+.rate:not(:checked) > label {
+	float: left;
+}
+.rate {
+    float: right;
+}
+.meanmenu-reveal {
+	right: auto;
+	left: 0;
+}
+.mean-container a.meanmenu-reveal {
+	left: 0 !important;
+	right: auto !important;
+}
+.techvio-responsive-nav .techvio-responsive-menu.mean-container .mean-nav ul li a{
+	text-align: right;
+}
+.infoMarof{
+	padding-right: 0px !important;
+}
+.parasAboutUsAlign{
+	text-align: right;
+}
